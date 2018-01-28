@@ -13,8 +13,9 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Bitmap bitmap = BitmapFactory.decodeResource(getResources(),R.drawable.goku);
+        Bitmap bitmap = BitmapFactory.decodeResource(getResources(),R.drawable.heart);
 
-        ImageToast.getInstance().show(this,bitmap);
+        ImageToast.getInstance().makeText(this,bitmap);
+
     }
 }

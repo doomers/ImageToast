@@ -17,13 +17,13 @@ public class ImageToast {
 
     }
 
-    public Toast show(Context context, Bitmap bitmap) {
+    public Toast makeText(Context context, Bitmap bitmap) {
 
         Toast toast = new Toast(context);
         ImageView view = new ImageView(context);
         view.setImageBitmap(bitmap);
         toast.setView(view);
-        toast.setDuration(Toast.LENGTH_LONG);
+        toast.setDuration(Toast.LENGTH_SHORT);
         toast.setGravity(Gravity.HORIZONTAL_GRAVITY_MASK,0,0);
         toast.show();
         return toast;
