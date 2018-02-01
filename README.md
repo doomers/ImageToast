@@ -30,8 +30,7 @@ dependencies {
 
 You have successfully integrated ImageToast in your android application
 
-## How to display a Toast
-        ImageToast.getInstance().makeText(this,bitmap);
+
 ### First create the bitmap of image resource you wan't to display
 
 ```
@@ -41,7 +40,7 @@ You have successfully integrated ImageToast in your android application
 ### Now to display the Toast
 
 ```
-ImageToast.getInstance().makeText(this,bitmap);
+ImageToast.getInstance().makeText(context,bitmap);
 ```
 
 ## Demos
