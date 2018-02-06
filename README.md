@@ -24,7 +24,7 @@ Add this to your module's `build.gradle` file (make sure the version matches the
 ```gradle
 dependencies {
 	...
-	        compile 'com.github.doomers:imagetoast:2.0'
+	        compile 'com.github.doomers:imagetoast:2.1.1'
 }
 ```
 
@@ -45,9 +45,9 @@ makeText(Context context,Bitmap bitmap,int duration,int size);
 
 ```
 
-bitmap - bitmap is the bitmap of the image you want to display.
-duration - Use ImageToast.LENGTH_LONG or ImageToast.LENGTH_SHORT 
-size - value should be between 5 - 100, it will alter the size of the image bitmap.
+bitmap - bitmap is the bitmap of the image you want to display.  
+duration - Use ImageToast.LENGTH_LONG or ImageToast.LENGTH_SHORT.   
+size - value should be between 5 - 100, it will alter the size of the image bitmap.  
 
 ## for quick usage consider this
 
