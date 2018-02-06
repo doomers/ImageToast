@@ -49,6 +49,7 @@ bitmap - bitmap is the bitmap of the image you want to display.
 duration - Use ImageToast.LENGTH_LONG or ImageToast.LENGTH_SHORT 
 size - value should be between 5 - 100, it will alter the size of the image bitmap.
 
+## for quick usage consider this
 
 ### First create the bitmap of image resource you wan't to display
 
@@ -60,7 +61,7 @@ size - value should be between 5 - 100, it will alter the size of the image bitm
 
 
 ```
-  ImageToast.getInstance().makeText(context,bitmap,ImageToast.LENGTH_LONG);
+  ImageToast.getInstance().makeText(context,bitmap,ImageToast.LENGTH_LONG,50);
 ```
 
 
