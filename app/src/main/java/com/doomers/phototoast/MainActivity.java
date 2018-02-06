@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         Bitmap bitmap = BitmapFactory.decodeResource(getResources(),R.drawable.heart);
 
-        ImageToast.getInstance().makeText(this,bitmap,ImageToast.LENGTH_LONG);
+        ImageToast.getInstance().makeText(this,bitmap,ImageToast.LENGTH_LONG,10);
 
     }
 }

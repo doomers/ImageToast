@@ -24,10 +24,26 @@ public class ImageToast {
         Toast toast = new Toast(context);
         ImageView view = new ImageView(context);
         view.setImageBitmap(bitmap);
+
         toast.setView(view);
         toast.setDuration(duration);
         toast.setGravity(Gravity.HORIZONTAL_GRAVITY_MASK,0,0);
         toast.show();
         return toast;
     }
+
+    public Toast makeText(Context context, Bitmap bitmap, int duration, int percent) {
+
+        Toast toast = new Toast(context);
+        ImageView view = new ImageView(context);
+        Bitmap bitmap1 = Bitmap.createScaledBitmap(bitmap, (bitmap.getWidth()*percent/100), (bitmap.getHeight()*percent/100) ,false);
+        view.setImageBitmap(bitmap1);
+        toast.setView(view);
+        toast.setDuration(duration);
+        toast.setGravity(Gravity.HORIZONTAL_GRAVITY_MASK,0,0);
+        toast.show();
+        return toast;
+    }
+
+
 }
