@@ -30,8 +30,7 @@ dependencies {
 
 You have successfully integrated ImageToast in your android application
 
-## How to display a Toast
-        ImageToast.getInstance().makeText(this,bitmap);
+
 ### First create the bitmap of image resource you wan't to display
 
 ```
@@ -41,8 +40,18 @@ You have successfully integrated ImageToast in your android application
 ### Now to display the Toast
 
 ```
-ImageToast.getInstance().makeText(this,bitmap);
+ImageToast.getInstance().makeText(context,bitmap);
 ```
+
+## Demos
+
+
+<img src="https://github.com/doomers/ImageToast/blob/master/GIFs/goku.gif" width="350" height="600" /> <img src="https://github.com/doomers/ImageToast/blob/master/GIFs/heart.gif" width="350" height="600" /> <img src="https://github.com/doomers/ImageToast/blob/master/GIFs/mouse.gif" width="350" height="600" />
+
+
+
+
+
 
 ## Contributing
 
@@ -51,6 +60,12 @@ Please fork this repository and contribute back using
 
 Any contributions, large or small, major features, bug fixes, are welcomed and appreciated
 but will be thoroughly reviewed.
+
+### Contact - Let's become friend, 
+- [Twitter](https://twitter.com/rahul40800)
+- [Github](https://github.com/doomers)
+- [Linkedin](https://www.linkedin.com/in/rahul-tuteja-20353a114/)
+- [Facebook](https://www.facebook.com/rahul.tuteja.984)
 
 
 
